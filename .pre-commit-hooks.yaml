@@ -1,0 +1,7 @@
+# This configuration file allows our pre-commit hooks to be used with pre-commit: http://pre-commit.com/
+
+- id: branch-name
+  name: Enforce branch name
+  description: Checks the current branch name and enforces naming prefix convention.
+  entry: hooks/enforce-branch-name.sh
+  language: script
